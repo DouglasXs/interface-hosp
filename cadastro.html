@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> Cadastro do paciênte</title>
+
+	<link rel="web site icon"  href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI1WLqEvZUKZlIPN14jJgBSvEkyYGijBclDcr5envotw&s">
+
+	<link rel="stylesheet" type="text/css" href="cadastro.css">
+
+</head>
+<body>
+
+	<header>
+		<h1>HOSPITAL DAS NAÇÕES</h1>
+		<p>Endereço: Av. Principal, 455 - Centro - Campina Grande do Sul - Paraná</p>
+		<p>Contato: (00) 0000-0000</p>
+		<img class="img" src="http://www.gparquitetura.com.br/site/wp-content/uploads/2017/10/HN-04.jpg">
+	</header> <br>
+	<form>
+			
+		<fieldset>
+					
+			<legend>Informe seus dados abaixo.</legend>
+			<label for="Nome">Nome:</label>
+			<input type="text" placeholder="Digite seu nome.">
+
+			<label for="Sobrenome">Sobrenome:</label>
+			<input type="text" placeholder="Digite seu sobrenome.">
+
+			<label for="cpf">CPF:</label>
+			<input type="text" placeholder="Numeros sem pontuação.">
+
+		</fieldset>
+
+		<fieldset>
+					
+			<legend>Informe seu Endereço.</legend>
+			<label for="Endereço">Rua:</label>
+			<input type="text" placeholder="Digite o nome da rua.">
+
+			<label for="Endereço">Numero:</label>
+			<input type="text" placeholder="Numero da sua residência..">
+
+			<label for="Endereço">Complemento:</label>
+			<input type="text" placeholder="Complemento exp: Casa 2."> <br> <br>
+
+			<label for="Endereço">Cidade:</label>
+			<input type="text" placeholder="Informe a cidade ou bairro.">
+
+			<label for="Endereço">Estado:</label>
+			<input type="text" placeholder="Informe seu estado.">
+
+			<label for="Endereço">CEP:</label>
+			<input type="text" placeholder="Numeros sem pontuação.">
+
+		</fieldset>
+
+		<fieldset>
+			
+			<legend>Informe seu Problema.</legend>
+			<label for="sintomas">Informe a doênça:</label>
+			<input type="text" placeholder="Informe os sintomas">
+
+			<label for="estado_doença">Como está o estado dos sintomas?:</label>
+			<select id="estado_doença">
+			<option value="Estado_leve">Estado Leve</option>
+			<option value="Estado_intermediario">Estado Intermediario</option>
+			<option value="Estado_Grave">Estado Grave</option>
+			
+			</select><br>
+
+		</fieldset>
+
+		<input type="submit" value="Cadastrar" formaction="interface.html"> 
+
+		</form>
+
+</body>
+</html>
